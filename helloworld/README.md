@@ -42,7 +42,7 @@ All tools successfully installed. You are ready to Go. :)
 
 setting -> user snippet -> edit json
 
-### fix golang problem
+### fix golang problem [unprocessed]
 
 > gopls was not able to find modules in your workspace.
 > When outside of GOPATH, gopls needs to know which modules you are working on.
@@ -50,9 +50,3 @@ setting -> user snippet -> edit json
 > by using a go.work file to specify multiple modules.
 > See the documentation for more information on setting up your workspace:
 > https://github.com/golang/tools/blob/master/gopls/doc/workspace.md
-
-setting -> extensions -> go -> alternate tools
-
-```sh
-go env -w GO111MODULE=
-```
