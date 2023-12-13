@@ -1,4 +1,4 @@
-## configure golang environment
+## configure golang environment in vscode
 
 go version go1.21.4 windows/amd64
 
@@ -6,7 +6,7 @@ go version go1.21.4 windows/amd64
 go env -w GOPROXY=https://goproxy.cn,direct
 ```
 
-Windows平台按下`Ctrl+Shift+P`，Mac平台按`Command+Shift+P`，这个时候VS Code界面会弹出一个输入框，输入`go: install` 记得重启VS Code。
+Windows平台按下 `Ctrl+Shift+P`，Mac平台按 `Command+Shift+P`，这个时候VS Code界面会弹出一个输入框，输入 `go: install` 记得重启VS Code。
 
 出现以下信息即为成功！
 
@@ -31,3 +31,5 @@ Installing honnef.co/go/tools/cmd/staticcheck@latest (D:\Environments\gopath\bin
 
 All tools successfully installed. You are ready to Go. :)
 ```
+
+单位
