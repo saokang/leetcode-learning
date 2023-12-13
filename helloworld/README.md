@@ -1,6 +1,10 @@
+![](../assets/images/wallpaper.jpeg)
+
 ## configure golang environment in vscode
 
 go version go1.21.4 windows/amd64
+
+### install golang relevant tools
 
 ```
 go env -w GOPROXY=https://goproxy.cn,direct
@@ -32,4 +36,23 @@ Installing honnef.co/go/tools/cmd/staticcheck@latest (D:\Environments\gopath\bin
 All tools successfully installed. You are ready to Go. :)
 ```
 
-单位
+### configure user snippets
+
+配置自定义代码片段（snippet）
+
+setting -> user snippet -> edit json
+
+### fix golang problem
+
+> gopls was not able to find modules in your workspace.
+> When outside of GOPATH, gopls needs to know which modules you are working on.
+> You can fix this by opening your workspace to a folder inside a Go module, or
+> by using a go.work file to specify multiple modules.
+> See the documentation for more information on setting up your workspace:
+> https://github.com/golang/tools/blob/master/gopls/doc/workspace.md
+
+setting -> extensions -> go -> alternate tools
+
+```sh
+go env -w GO111MODULE=
+```
