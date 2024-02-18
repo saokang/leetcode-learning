@@ -50,3 +50,14 @@ setting -> user snippet -> edit json
 > by using a go.work file to specify multiple modules.
 > See the documentation for more information on setting up your workspace:
 > https://github.com/golang/tools/blob/master/gopls/doc/workspace.md
+
+
+```
+2024	2025	2026	2027	2028	2029	2030	2031	2032	2033	2034
+25		26		27		28		29		30		31		32		33		34		35
+8		16		16		16		20		20		20		20		25		25		25
+8		10+0	1		1		0+15	30		30		30		35		35		35
+0		-5		-15		-15		-5		10		10		10		10		10		10
+-40										60
++20
+```
